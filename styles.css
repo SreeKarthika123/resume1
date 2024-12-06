@@ -1,0 +1,76 @@
+/* styles.css */
+hr.section-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd; /* Light gray color */
+    margin: 20px 0;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  header .title {
+    font-size: 18px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .contact, .about, .work-experience, .skills {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .about, .work-experience {
+    grid-column: span 2;
+  }
+  
